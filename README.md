@@ -1,9 +1,9 @@
-# DevTinder Backend 🚀
+# DevDate Backend 🚀
 
 ## 📌 Overview
 DevDate is a **MERN stack** web application designed to help developers **connect and collaborate**, similar to Tinder but specifically for developers. Users can create profiles, explore other developers, send connection requests, manage their matches, and communicate in real-time.
 
-This repository contains the **backend** of DevTinder, built with **Node.js, Express, and MongoDB**, following a **microservices architecture** for scalability.
+This repository contains the **backend** of DevDate, built with **Node.js, Express, and MongoDB**, following a **microservices architecture** for scalability.
 
 > ✅ **Status:** The backend is **feature-complete** with real-time capabilities, advanced search, and comprehensive testing suite.
 
@@ -169,7 +169,7 @@ npm install
 ### **3️⃣ Set Up Environment Variables**
 Create a `.env` file and add:
 ```ini
-DATABASE_URL=mongodb+srv://<username>:<password>@cluster0.mongodb.net/devTinder
+DATABASE_URL=mongodb+srv://<username>:<password>@cluster0.mongodb.net/DevDate
 JWT_SECRET=your_jwt_secret
 PORT=3000
 SOCKET_PORT=3001
@@ -195,7 +195,7 @@ npm run test:coverage
 ---
 
 ## 🔗 Frontend Integration
-The frontend for DevTinder is available at:
+The frontend for DevDate is available at:
 ```bash
 git clone https://github.com/being-snehil/Dev-Date.git
 cd DevDate-UI
